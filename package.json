@@ -10,7 +10,12 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^2.1.5"
+    "@astrojs/react": "^2.1.0",
+    "@types/react": "^18.0.30",
+    "@types/react-dom": "^18.0.11",
+    "astro": "^2.1.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "eslint": "^8.36.0",
