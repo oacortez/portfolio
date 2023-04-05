@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Button() {
+const Button = ({ children }) => {
   return (
     <div>Button</div>
   )
