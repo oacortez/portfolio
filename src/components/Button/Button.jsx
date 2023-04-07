@@ -2,8 +2,15 @@ import React from 'react'
 import styles from './styles.module.scss'
 
 const Button = () => {
+
+  const [text, setText] = useState('Click me!');
+
+  const handleClick = () => {
+    setText('You clicked me!');
+  };
+
   return (
-    <button className={styles.primary}>I Work!</button>
+    <button className={styles.primary} onClick={handleClick}>{text}</button>
   )
 }
 
