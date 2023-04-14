@@ -1,0 +1,9 @@
+.primary {
+  background: rgba(33, 150, 243, 1);
+  height: 42px;
+  width: 91px;
+  left: 24px;
+  top: 25px;
+  border-radius: 4px;
+  padding: 8px 22px 8px 22px;
+}
